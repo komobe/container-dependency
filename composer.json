@@ -1,11 +1,30 @@
 {
-    "name": "komobe/psr11",
-    "type": "library",
-    "authors": [
-        {
-            "name": "komobe",
-            "email": "komobesokona@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "komobe/container",
+  "description": "Librairie d'injection de dependance.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Moro Koné",
+      "email": "komobesokona@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "psr/container": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Komobe\\Container\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Komobe\\Container\\Tests\\": "tests/"
+    }
+  }
 }
