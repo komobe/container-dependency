@@ -1,0 +1,11 @@
+{
+    "name": "komobe/psr11",
+    "type": "library",
+    "authors": [
+        {
+            "name": "komobe",
+            "email": "komobesokona@gmail.com"
+        }
+    ],
+    "require": {}
+}
